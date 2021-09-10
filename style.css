@@ -1,0 +1,38 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: rgb(41, 129, 126);
+}
+
+svg {
+  background-color: rgb(155, 188, 186);
+  padding: 10px;
+  color: white;
+}
+
+#canvas {
+  min-height: 600px;
+  min-width: 1200px;
+  color: white;
+  font-size: 12px;
+}
+#legend {
+  margin-top: 20px;
+}
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  color: white;
+  padding: 20px;
+  background: rgb(155, 188, 186);
+  margin-bottom: 20px;
+}
